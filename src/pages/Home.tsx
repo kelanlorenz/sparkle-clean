@@ -208,34 +208,34 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-6">
             <ReviewCard 
-              name="Sarah Jenkins"
-              date="2 weeks ago"
-              text="Absolutely thrilled with the powerwashing job Sparkle Clean did on our driveway and patio. It looks brand new! The team was professional, punctual, and left everything spotless."
-            />
-            <ReviewCard 
-              name="Mark O'Connor"
-              date="1 month ago"
-              text="Had the exterior of our house painted. Fantastic attention to detail and they even fixed a few loose fascia boards while they were at it. Highly recommend their services."
-            />
-            <ReviewCard 
-              name="Emma Walsh"
+              name="Aoife Clifford"
               date="2 months ago"
-              text="Great communication from start to finish. They cleared our gutters and did some minor roof repairs. Very reasonably priced for the high quality of work provided."
+              text="Excellent service and communication. Dave came on time, gave detailed quotes and was very pleasant and helpful to deal with."
             />
             <ReviewCard 
-              name="John Doyle"
-              date="3 months ago"
-              text="Sparkle Clean did an amazing job on our roof and gutters. Very professional, tidy, and efficient. Will definitely use them again for future maintenance."
+              name="Sue Johnson"
+              date="9 months ago"
+              text="David has been cleaning our windows and gutters for many years now.  He's a pleasure to deal with and his work is excellent.  Also reasonably priced and always turns up as arranged.  I'm happy to highly recommend David and his team!!!"
             />
             <ReviewCard 
-              name="Lisa Murphy"
-              date="4 months ago"
-              text="Had my kitchen splashback tiled by the team. The attention to detail was fantastic and the price was very fair. Couldn't be happier with the result."
+              name="Judy Hennesey"
+              date="9 months ago"
+              text="David and his team cleaned my roof/gutters and patio. They did a fantastic job. Communication from them, the work carried out,  and the finish was perfect. I would highly recommend them and will certainly use their services again in the future. Thank you David & Team."
             />
             <ReviewCard 
-              name="David Kelly"
-              date="5 months ago"
-              text="Excellent window cleaning service. They managed to reach the awkward skylights that others wouldn't touch. Highly recommended to anyone in the area!"
+              name="Elaine Macken"
+              date="11 months ago"
+              text="Dave and the lads did a fabulous job painting the outside of my house.  The paintwork was in really bad condition so it was not an easy job but it now looks like new.  Dave kept in contact with me and arrived as agreed.  They got on with the work and cleaned up afterwards and you wouldn’t have known they had been here other than the house looks so much better!  Definitely recommend them!"
+            />
+            <ReviewCard 
+              name="June Shannon"
+              date="2 years ago"
+              text="Can highly recommend Sparkle Clean they did a brilliant job power hosing our back yard that was covered in moss. It’s so clean it’s like we have a brand new garden. Also they were very friendly and super reliable."
+            />
+            <ReviewCard 
+              name="Genevieve T Reid"
+              date="1 year ago"
+              text="Superb service from start to finish. David does an excellent job with anything that is asked of him and went over and above for us- nothing is a problem! On time, fair price and great communication. Highly recommend sparkle clean!!"
             />
           </div>
         </div>
