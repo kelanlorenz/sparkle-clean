@@ -27,7 +27,7 @@ export default function Footer() {
               <a href="https://instagram.com/Sparklecleandelgany" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-brand-400 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://facebook.com/SparkleClean" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-brand-400 transition-colors">
+              <a href="https://www.facebook.com/sparklecleandelgany" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-brand-400 transition-colors">
                 <Facebook size={20} />
               </a>
             </div>
