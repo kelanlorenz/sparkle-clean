@@ -17,7 +17,7 @@ export default function Home() {
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-slate-900/50 mix-blend-multiply" />
+          <div className="absolute inset-0 bg-slate-900/60 mix-blend-multiply" />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-50 via-transparent to-transparent" />
         </div>
         
