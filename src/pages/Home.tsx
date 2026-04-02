@@ -160,14 +160,17 @@ export default function Home() {
             <BeforeAfterSlider 
               beforeImage="/before1sc.jpg"
               afterImage="/after1sc.jpg"
+              objectPositionBefore="top"
             />
             <BeforeAfterSlider 
               beforeImage="/before2sc.jpg"
               afterImage="/after2sc.jpg"
+              objectPositionAfter="top"
             />
             <BeforeAfterSlider 
               beforeImage="/before3sc.jpg"
               afterImage="/after3sc.jpg"
+              objectPositionBefore="50% 33%"
             />
             <BeforeAfterSlider 
               beforeImage="/before4sc.jpg"

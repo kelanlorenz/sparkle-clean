@@ -4,9 +4,11 @@ import { MoveHorizontal } from "lucide-react";
 interface BeforeAfterSliderProps {
   beforeImage: string;
   afterImage: string;
+  objectPositionBefore?: string;
+  objectPositionAfter?: string;
 }
 
-export default function BeforeAfterSlider({ beforeImage, afterImage }: BeforeAfterSliderProps) {
+export default function BeforeAfterSlider({ beforeImage, afterImage, objectPositionBefore = 'center', objectPositionAfter = 'center' }: BeforeAfterSliderProps) {
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -62,6 +64,7 @@ export default function BeforeAfterSlider({ beforeImage, afterImage }: BeforeAft
         src={afterImage} 
         alt="After" 
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+        style={{ objectPosition: objectPositionAfter }}
         referrerPolicy="no-referrer"
       />
       
@@ -74,6 +77,7 @@ export default function BeforeAfterSlider({ beforeImage, afterImage }: BeforeAft
           src={beforeImage} 
           alt="Before" 
           className="absolute inset-0 w-full h-full object-cover"
+          style={{ objectPosition: objectPositionBefore }}
           referrerPolicy="no-referrer"
         />
       </div>
